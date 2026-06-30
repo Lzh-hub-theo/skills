@@ -1,0 +1,16 @@
+# 排除根目录下除 README.md 之外的所有 .md 文件
+# (用 / 前缀锚定到 .gitignore 所在目录,不会误伤子目录里的 .md,比如 knowledge-quiz/SKILL.md)
+/*.md
+!/README.md
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+
+# Node
+node_modules/
